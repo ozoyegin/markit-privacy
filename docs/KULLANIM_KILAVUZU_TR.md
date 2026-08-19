@@ -1,4 +1,4 @@
-# Markit Ayrıntılı Kullanım Kılavuzu
+# Markit Kullanım Kılavuzu
 
 Bu kılavuz, Markit Android uygulamasını ilk kez kullanmaya başlayanlar için hazırlanmıştır. Markit; internette okurken karşılaştığınız kelime ve ifadeleri kaydetmenizi, bunları kişisel listelerde düzenlemenizi ve aralıklı tekrar sistemiyle çalışmanızı sağlar.
 
