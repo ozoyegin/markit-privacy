@@ -264,6 +264,8 @@ Liste çalışma menüsündeki küçük seviye grafiği de seçili liste ve alt 
 
 Miray Browser’ı ana ekrandaki renkli **Read & Learn with Miray Browser** kartından veya profil menüsünden açabilirsiniz.
 
+> **İsmi neden Miray Browser?** Çünkü geliştiricinin kızı Miray’ın adı sıradan bir düğmeye sığmayacak kadar özel. Bu yüzden ona kendi Browser’ını verdik. İnternette gezinirken yeni kelimeler öğrenmenize yardım ediyor; şimdilik odanızı toplamanızı hatırlatmıyor. 🙂
+
 ![Miray Browser içinde metin seçme, Markit'e ekleme ve Page Reader kontrolleri](kullanim_kilavuzu/5.png)
 
 ### Üst araç çubuğu
