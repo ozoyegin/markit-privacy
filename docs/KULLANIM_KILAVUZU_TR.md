@@ -48,7 +48,7 @@ Uygulamayı ilk açtığınızda ana ekranda **My Lists** alanını görürsün�
 
 Önerilen ilk kurulum:
 
-1. Sağ alttaki mavi **+** düğmesine dokunun.
+1. Sol alttaki mavi **liste ekleme** düğmesine dokunun. Sağ alttaki mavi **+** düğmesi liste değil, kayıt eklemek içindir.
 2. Listeye kolay tanınan bir ad verin. Örnek: `English News`.
 3. Bir liste rengi seçin.
 4. **Select language** alanından öğrenilen dili seçin.
@@ -57,11 +57,13 @@ Uygulamayı ilk açtığınızda ana ekranda **My Lists** alanını görürsün�
 
 Dil seçimi zorunludur. Dil seçmeden kaydetmeye çalışırsanız Markit ilgili alanı vurgular.
 
+Ses seçenekleri telefonda etkin olan metin okuma (TTS) motoruna ve indirilmiş dil paketlerine bağlıdır. Markit, motorun teknik ses kodlarını kullanıcıya göstermek yerine seçenekleri **Norwegian (Norway) • Offline voice 1** veya **Online voice 1** gibi okunabilir etiketlerle sunar. Android TTS motoru kişi adı ya da cinsiyet bilgisi sağlamıyorsa Markit bu bilgileri tahmin etmez. Bir dilde yalnızca **Default device voice** görünüyorsa **Install voices** düğmesiyle cihazın konuşma sesi indirme veya TTS ayarlarını açabilirsiniz. Yeni ses paketini yükledikten sonra Markit’teki ses seçiciyi yeniden açın.
+
 ## 3. Liste oluşturma ve düzenleme
 
 ### Ana liste oluşturma
 
-Ana ekrandaki mavi **+** düğmesi yeni bir üst düzey liste oluşturur. Farklı diller veya çalışma alanları için ayrı listeler kullanabilirsiniz.
+Ana ekrandaki sol alt mavi **liste ekleme** düğmesi yeni bir üst düzey liste oluşturur. Sağ alt köşedeki mavi **+** düğmesi ise yeni kayıt ekleme ekranını açar. Farklı diller veya çalışma alanları için ayrı listeler kullanabilirsiniz.
 
 Örnek yapı:
 
@@ -96,7 +98,7 @@ Ana ekrandaki **Filter** alanına kaydın bir bölümünü yazın. Eşleşen lis
 
 ### Birden fazla listeyi yönetme
 
-Liste seçim kutularını kullanarak birden fazla liste seçebilirsiniz. Açılan işlem menüsünden seçili listeleri taşıyabilir, kopyalayabilir veya silebilirsiniz. Silme işleminden önce seçilen liste ve kayıtları dikkatle kontrol edin.
+Bir liste kartına uzun basarak liste seçim modunu başlatabilirsiniz. Ardından diğer kartlara dokunarak seçime ekleyebilir veya seçimden çıkarabilirsiniz. Üstte açılan işlem menüsünden tümünü seçebilir; seçili listeleri taşıyabilir, kopyalayabilir veya silebilirsiniz. Silme işleminden önce seçilen liste ve kayıtları dikkatle kontrol edin.
 
 ## 4. Kayıt ekleme ve yönetme
 
@@ -261,6 +263,18 @@ Miray Browser’ı ana ekrandaki renkli **Read & Learn with Miray Browser** kart
 - **Three-dot menu:** Sekmeler, sayfada bulma, kayıt listesi değiştirme ve diğer işlemleri açar.
 - **My lists:** Açık Browser sekmelerini kapatmadan Markit liste ekranına döner.
 
+Android’in saat, Wi-Fi ve pil simgelerini içeren üst durum çubuğu Browser’da hem dikey hem yatay kullanımda gizlenir; böylece sayfaya daha fazla dikey alan kalır. Browser Fullscreen seçeneği ayrıca alttaki Android gezinme alanını da gizleyebilir.
+
+Liste ve kayıt ekranları cihazın kullanılabilir ekran ölçüsüne uyum sağlar. Dikey alanı sınırlı telefonlar yatay kullanımda otomatik olarak daha sıkı bir düzene geçer: Android’in üst durum çubuğu gizlenir; Markit başlığı, alt işlem düğmeleri ve kayıt kartlarının dikey boşlukları küçülür. Daha geniş tabletler ve açık katlanabilir cihazlar gereksiz yere sıkıştırılmaz; bütün düğmeler kullanılabilir kalır ve dikey ekran düzeni değişmez.
+
+Uygulamadaki özel form ve menüler; küçük telefon, yatay/dikey kullanım, büyük yazı ayarı ve açık klavye durumlarında kullanılabilir yüksekliğe uyum sağlar. Liste ve kayıt ekleme/düzenleme, hedef liste ağacı, çalışma menüleri, renk seçiciler, Premium uyarıları ve içe/dışa aktarma pencerelerinde içerik ekrana sığmadığında alt düğmeler kesilmek yerine pencere içinde kaydırılabilir.
+
+Telefon yatay kullanılırken sayfayı aşağı kaydırdığınızda Browser’ın adres çubuğu ile kayıt listesi durum satırı yumuşakça yukarı çekilir ve okuma alanı genişler. Sayfayı yukarı kaydırmaya başladığınızda, sayfanın en üstüne geldiğinizde veya sekme değiştirdiğinizde kontroller yeniden görünür. Bu otomatik davranış Android’in sistem durum çubuğunu değiştirmez.
+
+Web sayfasındaki HTML5 video oynatıcısının tam ekran düğmesine dokunduğunuzda video Browser ve sistem çubuklarının üzerine geçerek gerçek tam ekran açılır. Android Back düğmesi videonun tam ekran görünümünü kapatır ve aynı web sayfasına döndürür. Daha önce etkinleştirilmiş Browser Fullscreen tercihi video kapandıktan sonra korunur. Telefon yatay ve dikey yönler arasında çevrildiğinde hem oynatılan video hem de Page Reader seslendirmesi kesilmeden devam eder. Sayfa yenilenmeden yeni ekran genişliğine göre yeniden düzenlenir ve Browser Zoom ile seçilmiş yazı boyutu korunur.
+
+Page Reader kontrolündeki ayarlar simgesinin altında **Highlight color** seçeneği bulunur. Renk alanı ve ton şeridi üzerinden istenen cümle vurgu rengi seçilebilir; RGB/HEX değeri ile canlı önizleme gösterilir. **Use color** seçildiğinde renk açık Browser sekmelerine hemen uygulanır ve sonraki kullanımlar için cihazda saklanır.
+
 ### Arama yapma
 
 Adres alanına tam bir web adresi veya arama ifadesi yazabilirsiniz. Web adresi değilse arama olarak açılır. Yazarken geçmiş sitelerden öneriler gösterilebilir.
@@ -282,6 +296,8 @@ Three-dot menüdeki **Change saving list** işlemiyle o sekmenin hedef listesini
 3. Gerekirse hedef listeyi seçin veya **New list** ile yeni liste oluşturun.
 4. Seçilen metni, çeviriyi ve yakalanan örnek cümleyi kontrol edin.
 5. **Save** düğmesine dokunun.
+
+Markit dışındaki uygulamalarda seçilen metin de kaydedilebilir. Chrome ve Android'in seçili metin işlemlerini destekleyen uygulamalarda seçim araç çubuğundan **Markit** seçeneğine dokunun. Bu seçenek doğrudan görünmüyorsa **Share › Markit** yolunu kullanın. PDF uygulamalarında kullanılabilirlik, ilgili okuyucunun metin seçimine ve Android'in Process Text veya Share işlemlerine izin vermesine bağlıdır; Markit'in içinde ayrıca bir PDF görüntüleyici bulunmaz.
 
 Kaydedilen kelime veya çok kelimeli ifade sayfada hedef listenin rengiyle vurgulanır. Bir kayıt başka bir kelimenin içinde geçiyorsa eşleşen bölüm de vurgulanabilir; örneğin `drive` kaydı `driver` içindeki `drive` bölümünde görülebilir.
 
@@ -414,6 +430,8 @@ Aktif aylık abonelikten yıllığa veya yıllıktan aylığa geçiş seçebilir
 gösterir.
 
 Abonelik iptali ve ödeme yönetimi Google Play Store’un **Payments & subscriptions › Subscriptions** bölümünden yapılır. Abonelik yenilenmez ve ücretli dönem sona ererse uygulama Free sürüme döner. Aynı Google hesabıyla yeniden yükleme yapıldığında aktif satın alma Google Play üzerinden tekrar tanınabilir; yerel kelime verileri için ayrıca yedek almanız gerekir.
+
+Markit, Premium hakkını uygulama açıldığında ve satın alma ya da plan değişikliği işlemlerinde Google Play üzerinden kontrol eder. Başarılı kontrolde aktif abonelik bulunmazsa uygulama hemen Free sürüme döner. Geçici internet veya Google Play bağlantı sorunları daha önce doğrulanmış Premium hakkını kapatmaz; uygulama kesin bir Google Play sonucu alınmasını bekler.
 
 ## 18. Cihaz değiştirme ve uygulamayı yeniden yükleme
 
