@@ -57,14 +57,11 @@
     }
     .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; }
     .brand-mark {
-      display: grid;
       width: 34px;
       height: 34px;
-      place-items: center;
-      border-radius: 11px;
-      color: white;
-      background: linear-gradient(135deg, #2563eb, #0f9d8a);
-      box-shadow: 0 7px 18px rgb(25 118 210 / 22%);
+      display: block;
+      object-fit: contain;
+      border-radius: 8px;
     }
     .topbar a { color: var(--blue); font-size: 14px; font-weight: 700; text-decoration: none; }
     main {
@@ -147,7 +144,7 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand"><span class="brand-mark">M</span><span>Markit Kılavuzu</span></div>
+    <div class="brand"><img class="brand-mark" src="./markit-icon.png" alt="Markit"><span>Markit Kılavuzu</span></div>
     <a href="https://ozoyegin.github.io/markit-privacy/privacy-policy.html">Privacy Policy</a>
   </header>
   <main id="content" aria-live="polite"><p class="loading">Kullanım kılavuzu yükleniyor…</p></main>
