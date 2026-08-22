@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <meta name="description" content="Markit Android uygulaması ayrıntılı Türkçe kullanım kılavuzu">
-  <title>Markit Türkçe Kullanım Kılavuzu</title>
+  <title>Markit Kullanım Kılavuzu</title>
   <style>
     :root {
       color-scheme: light dark;
@@ -244,7 +244,7 @@
       return output.join('\n');
     }
 
-    fetch('./KULLANIM_KILAVUZU_TR.md')
+    fetch('./KULLANIM_KILAVUZU_TR.md', { cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error('HTTP ' + response.status);
         return response.text();
