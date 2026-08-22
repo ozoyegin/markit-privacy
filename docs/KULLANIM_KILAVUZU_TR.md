@@ -46,6 +46,8 @@ Kelime listeleri, öğrenme ilerlemesi, ayarlar, Browser yer imleri ve yakın ge
 
 Uygulamayı ilk açtığınızda ana ekranda **My Lists** alanını görürsünüz.
 
+![Markit ana ekranında günlük hedef, Miray Browser kartı ve kelime listeleri](kullanim_kilavuzu/1.png)
+
 Önerilen ilk kurulum:
 
 1. Sol alttaki mavi **liste ekleme** düğmesine dokunun. Sağ alttaki mavi **+** düğmesi liste değil, kayıt eklemek içindir.
@@ -165,6 +167,8 @@ Bir çalışma oturumunun tamamlanmasının ardından:
 
 **Learn**, ağırlıklı olarak Level 0, Level 1 ve Level 2 kayıtlar içindir.
 
+![Liste seviye dağılımı ile Learn, Review Words ve Game çalışma seçenekleri](kullanim_kilavuzu/2.png)
+
 1. Bir listeye dokunun.
 2. Açılan çalışma menüsünde **Learn** seçeneğine dokunun.
 3. Gösterilen çalışma aşamalarını tamamlayın.
@@ -189,9 +193,13 @@ Review oturumu tamamlandığında görsel sonuç ekranında:
 
 gösterilir. Seviye atlayanlar yeşil, aynı kalanlar gri, Level 5’e ulaşanlar altın tonuyla vurgulanır.
 
+![Tamamlanan Review oturumunda çalışılan ve seviye atlayan kelimelerin özeti](kullanim_kilavuzu/3.png)
+
 ## 8. Game modu
 
 **Game**, listedeki kayıtları farklı alıştırmalarla tekrar etmenizi sağlar. Game, düzenli Learn ve Review çalışmalarını destekleyen pratik alanıdır; planlanan Review oturumlarının yerine geçmesi amaçlanmaz.
+
+![Game ekranındaki Match, Guess, Flashcards ve Write alıştırmaları](kullanim_kilavuzu/4.png)
 
 Free sürümde belirli sayıda tamamlanan Game oturumundan sonra reklam teklifi gösterilebilir. Premium sürümde reklamlar kaldırılır.
 
@@ -237,6 +245,8 @@ Bildirim iznini reddederseniz hatırlatıcı kapalı kalır. İzni daha sonra An
 
 Profil menüsünden **Progress** seçeneğini açın.
 
+![Markit Progress ekranında günlük hedefler ile son 7 ve 30 günün çalışma grafikleri](kullanim_kilavuzu/7.png)
+
 Bu ekranda genel olarak şunları inceleyebilirsiniz:
 
 - Günlük çalışma süresi
@@ -253,6 +263,8 @@ Liste çalışma menüsündeki küçük seviye grafiği de seçili liste ve alt 
 ## 12. Miray Browser
 
 Miray Browser’ı ana ekrandaki renkli **Read & Learn with Miray Browser** kartından veya profil menüsünden açabilirsiniz.
+
+![Miray Browser içinde metin seçme, Markit'e ekleme ve Page Reader kontrolleri](kullanim_kilavuzu/5.png)
 
 ### Üst araç çubuğu
 
@@ -296,6 +308,8 @@ Three-dot menüdeki **Change saving list** işlemiyle o sekmenin hedef listesini
 3. Gerekirse hedef listeyi seçin veya **New list** ile yeni liste oluşturun.
 4. Seçilen metni, çeviriyi ve yakalanan örnek cümleyi kontrol edin.
 5. **Save** düğmesine dokunun.
+
+![Web sayfasından seçilen ifade, çeviri ve kaynak cümleyi kaydetme penceresi](kullanim_kilavuzu/6.png)
 
 Markit dışındaki uygulamalarda seçilen metin de kaydedilebilir. Chrome ve Android'in seçili metin işlemlerini destekleyen uygulamalarda seçim araç çubuğundan **Markit** seçeneğine dokunun. Bu seçenek doğrudan görünmüyorsa **Share › Markit** yolunu kullanın. PDF uygulamalarında kullanılabilirlik, ilgili okuyucunun metin seçimine ve Android'in Process Text veya Share işlemlerine izin vermesine bağlıdır; Markit'in içinde ayrıca bir PDF görüntüleyici bulunmaz.
 

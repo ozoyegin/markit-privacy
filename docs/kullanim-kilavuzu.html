@@ -108,6 +108,17 @@
       border-radius: 14px;
     }
     pre code { padding: 0; border: 0; background: transparent; }
+    figure.guide-image { margin: 1.5rem auto 2rem; text-align: center; }
+    figure.guide-image img {
+      display: block;
+      width: min(100%, 540px);
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 14px 36px rgb(22 55 88 / 14%);
+    }
+    figure.guide-image figcaption { margin-top: .65rem; color: var(--muted); font-size: .9rem; }
     .table-wrap { overflow-x: auto; margin: 1.2rem 0; border: 1px solid var(--line); border-radius: 14px; }
     table { width: 100%; border-collapse: collapse; min-width: 560px; }
     th, td { padding: 11px 14px; border-bottom: 1px solid var(--line); text-align: left; }
@@ -153,6 +164,8 @@
   <script>
     const escapeHtml = value => value
       .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+    const escapeAttribute = value => escapeHtml(value)
+      .replaceAll('"', '&quot;').replaceAll("'", '&#39;');
 
     function inline(value) {
       return escapeHtml(value)
@@ -195,6 +208,14 @@
           continue;
         }
         if (inCode) { code.push(line); continue; }
+        const image = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+        if (image) {
+          closeParagraph(); closeList();
+          output.push('<figure class="guide-image"><img src="' + escapeAttribute(image[2])
+            + '" alt="' + escapeAttribute(image[1]) + '" loading="lazy">'
+            + '<figcaption>' + inline(image[1]) + '</figcaption></figure>');
+          continue;
+        }
         if (/^\|.+\|$/.test(line) && i + 1 < lines.length && /^\|?[\s:|-]+\|$/.test(lines[i + 1])) {
           closeParagraph(); closeList();
           const headers = line.slice(1, -1).split('|').map(cell => cell.trim());
