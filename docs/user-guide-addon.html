@@ -24,16 +24,18 @@
 <header><div>
   <h1>Markit Highlighter</h1>
   <p>User Guide for the Chrome extension — save words and phrases from web pages and PDFs, listen to them, and practise them in Markit.</p>
+  <p>Your lists, records, progress and preferences are stored locally in your Chrome profile.</p>
 </div></header>
 <main>
-  <p class="lead">Markit Highlighter helps you collect language from what you are reading. Your lists, records, progress and preferences are stored locally in your Chrome profile.</p>
+  <p class="lead">Markit Highlighter helps you save words and phrases from what you read and practise them later.</p>
+  <p>Your lists, records, progress and preferences are stored locally in your Chrome profile.</p>
   <div class="notice"><strong>Quick start:</strong> create a list in the Markit popup, choose it in <strong>Save to</strong>, select text on a page or PDF, then use <strong>Add to Markit</strong>.</div>
 
   <nav class="toc"><strong>Contents</strong>
-    <a href="#install">Install</a><a href="#lists">Lists and records</a><a href="#web">Web pages</a><a href="#pdf">PDF Reader</a><a href="#study">Study and practice</a><a href="#progress">Progress</a><a href="#transfer">Backup and transfer</a><a href="#privacy">Privacy</a><a href="#help">Troubleshooting</a>
+    <a href="#lists">Lists and records</a><a href="#web">Web pages</a><a href="#pdf">PDF Reader</a><a href="#study">Study and practice</a><a href="#progress">Progress</a><a href="#transfer">Backup and transfer</a><a href="#privacy">Privacy</a><a href="#help">Troubleshooting</a>
   </nav>
 
-  <h2 id="lists">2. Create lists and save records</h2>
+  <h2 id="lists">1. Create lists and save records</h2>
   <p>Use the extension popup to create a named list. A list can have its own highlight colour, language and browser voice. You can also create sublists to keep subjects or courses organised.</p>
   <ul>
     <li>Use <strong>Save to</strong> to select the active list before reading.</li>
@@ -43,7 +45,7 @@
   </ul>
   <p>Saved words and phrases are highlighted automatically on supported pages. The extension badge shows the match count for the current page.</p>
 
-  <h2 id="web">3. Save text from web pages</h2>
+  <h2 id="web">2. Save text from web pages</h2>
   <ol>
     <li>Select a word, phrase or sentence on a web page.</li>
     <li>Use the small <strong>Add to Markit</strong> control that appears near the selection.</li>
@@ -51,8 +53,9 @@
   </ol>
   <p>You can also right-click selected text and choose <strong>Add to Markit</strong> from Chrome’s context menu. This is useful on pages where an in-page control is unavailable.</p>
 
-  <h2 id="pdf">4. Read and save from PDFs</h2>
-  <p>Open a PDF with the Markit PDF Reader. Select text to show a compact card with the selected-text preview, a speaker button, repeat and speed settings, and <strong>Add selection</strong>.</p>
+  <h2 id="pdf">3. Read and save from PDFs</h2>
+  <p>Use <strong>Open this PDF in Markit</strong> in the extension popup to open the current document in the <strong>Markit PDF Reader</strong>.</p>
+  <p>In Markit PDF Reader, saved records are highlighted directly on the page. Select new text to show a compact card with a clear selected-text preview, a speaker button, repeat and speed settings, and <strong>Add selection</strong>.</p>
   <ul>
     <li><strong>Speed:</strong> choose from <code>x0.25</code> through <code>x2</code>.</li>
     <li><strong>Repeat:</strong> repeat an item from 1 to 9 times.</li>
@@ -62,7 +65,7 @@
   </ul>
   <div class="tip"><strong>Local PDFs:</strong> in <code>chrome://extensions</code>, open Markit’s Details page and enable <strong>Allow access to file URLs</strong>.</div>
 
-  <h2 id="study">5. Study and Game Practice</h2>
+  <h2 id="study">4. Study and Game Practice</h2>
   <p>Open a list and choose a study option. Learn and Review follow the same learning model as the Markit Android app.</p>
   <div class="table-wrap"><table>
     <thead><tr><th>Mode</th><th>Purpose</th></tr></thead>
@@ -78,10 +81,10 @@
   <p>In Game Practice, records are shown in their creation order and Markit remembers the current position separately for each game mode and list. Learn and Review use their own prioritised scheduling and are not changed by this.</p>
   <p><strong>Keyboard shortcuts:</strong> use <kbd>Enter</kbd> to Show, Check, Next, Continue or Close when the relevant action is available. In choice games, use arrow keys to move between answers.</p>
 
-  <h2 id="progress">6. Progress</h2>
+  <h2 id="progress">5. Progress</h2>
   <p>The Progress screen shows study time, answer results, learning levels and list progress. Listening in the PDF Reader contributes to total study time only; it does not change a record’s level, correct/wrong counts or practice results.</p>
 
-  <h2 id="transfer">7. Backup, restore and transfer</h2>
+  <h2 id="transfer">6. Backup, restore and transfer</h2>
   <ul>
     <li><strong>Backup / Restore:</strong> saves or restores the whole extension data set as a JSON backup. This includes lists, sublists, records, study data, analytics, compatible preferences and saved Game Practice positions.</li>
     <li><strong>Export / Import:</strong> use XLSX for spreadsheet-oriented transfers. Markit-generated XLSX files preserve Markit metadata.</li>
@@ -89,11 +92,11 @@
   </ul>
   <div class="notice">Back up before replacing, restoring or moving data to another Chrome profile or computer. A backup is the safest way to preserve all lists and progress together.</div>
 
-  <h2 id="privacy">8. Privacy and storage</h2>
-  <p>Markit Highlighter stores its data in Chrome’s local extension storage. It does not require a server or Raspberry Pi. Your saved lists, records and study data remain in the local Chrome profile unless you export or back them up yourself.</p>
+  <h2 id="privacy">7. Privacy and storage</h2>
+  <p>Markit Highlighter stores its data in Chrome’s local extension storage. Your saved lists, records and study data remain in the local Chrome profile unless you export or back them up yourself.</p>
   <p>The extension needs page access to find and highlight saved text. Browser-internal pages, the Chrome Web Store and some protected pages do not permit extensions to inject page controls.</p>
 
-  <h2 id="help">9. Troubleshooting</h2>
+  <h2 id="help">8. Troubleshooting</h2>
   <h3>Highlights or controls do not appear</h3>
   <p>Refresh the page, confirm the relevant list is enabled, and check that the page is not a Chrome-internal or protected page. Use <strong>Apply to tab</strong> from the popup if needed.</p>
   <h3>A local PDF does not load</h3>
