@@ -24,7 +24,6 @@
 <header><div>
   <h1>Markit Highlighter</h1>
   <p>User Guide for the Chrome extension — save words and phrases from web pages and PDFs, listen to them, and practise them in Markit.</p>
-  <p>Your lists, records, progress and preferences are stored locally in your Chrome profile.</p>
 </div></header>
 <main>
   <p class="lead">Markit Highlighter helps you save words and phrases from what you read and practise them later.</p>
@@ -32,7 +31,7 @@
   <div class="notice"><strong>Quick start:</strong> create a list in the Markit popup, choose it in <strong>Save to</strong>, select text on a page or PDF, then use <strong>Add to Markit</strong>.</div>
 
   <nav class="toc"><strong>Contents</strong>
-    <a href="#lists">Lists and records</a><a href="#web">Web pages</a><a href="#pdf">PDF Reader</a><a href="#study">Study and practice</a><a href="#progress">Progress</a><a href="#transfer">Backup and transfer</a><a href="#privacy">Privacy</a><a href="#help">Troubleshooting</a>
+    <a href="#lists">Lists and records</a><a href="#web">Web pages</a><a href="#reader">Page Reader</a><a href="#pdf">PDF Reader</a><a href="#study">Study and practice</a><a href="#progress">Progress</a><a href="#transfer">Backup and transfer</a><a href="#privacy">Privacy</a><a href="#help">Troubleshooting</a>
   </nav>
 
   <h2 id="lists">1. Create lists and save records</h2>
@@ -53,7 +52,23 @@
   </ol>
   <p>You can also right-click selected text and choose <strong>Add to Markit</strong> from Chrome’s context menu. This is useful on pages where an in-page control is unavailable.</p>
 
-  <h2 id="pdf">3. Read and save from PDFs</h2>
+  <h2 id="reader">3. Listen on a web page</h2>
+  <p>On supported web pages, use the floating speaker button to open the <strong>Markit Reader</strong>. It reads the page sentence by sentence and highlights the sentence currently being read.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Control</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Previous / Next</strong></td><td>Move to the previous or next sentence.</td></tr>
+      <tr><td><strong>Play / Pause</strong></td><td>Start, pause or resume reading from the current sentence.</td></tr>
+      <tr><td><strong>Stop</strong></td><td>Stop reading and clear the current playback.</td></tr>
+      <tr><td><strong>Repeat</strong></td><td>Turn continuous repetition of the current sentence on or off.</td></tr>
+      <tr><td><strong>Hand</strong></td><td>Turn on tap mode, then click a sentence on the page to choose where reading begins.</td></tr>
+      <tr><td><strong>Volume / 1x</strong></td><td>Adjust reader volume and reading speed.</td></tr>
+      <tr><td><strong>Gear</strong></td><td>Choose language and voice, test the voice, set speed and change the sentence-highlight colour.</td></tr>
+    </tbody>
+  </table></div>
+  <p>The floating speaker can be dragged to a convenient position. Its position and Reader settings are remembered in the current Chrome profile.</p>
+
+  <h2 id="pdf">4. Read and save from PDFs</h2>
   <p>Use <strong>Open this PDF in Markit</strong> in the extension popup to open the current document in the <strong>Markit PDF Reader</strong>.</p>
   <p>In Markit PDF Reader, saved records are highlighted directly on the page. Select new text to show a compact card with a clear selected-text preview, a speaker button, repeat and speed settings, and <strong>Add selection</strong>.</p>
   <ul>
@@ -65,7 +80,7 @@
   </ul>
   <div class="tip"><strong>Local PDFs:</strong> in <code>chrome://extensions</code>, open Markit’s Details page and enable <strong>Allow access to file URLs</strong>.</div>
 
-  <h2 id="study">4. Study and Game Practice</h2>
+  <h2 id="study">5. Study and Game Practice</h2>
   <p>Open a list and choose a study option. Learn and Review follow the same learning model as the Markit Android app.</p>
   <div class="table-wrap"><table>
     <thead><tr><th>Mode</th><th>Purpose</th></tr></thead>
@@ -81,10 +96,10 @@
   <p>In Game Practice, records are shown in their creation order and Markit remembers the current position separately for each game mode and list. Learn and Review use their own prioritised scheduling and are not changed by this.</p>
   <p><strong>Keyboard shortcuts:</strong> use <kbd>Enter</kbd> to Show, Check, Next, Continue or Close when the relevant action is available. In choice games, use arrow keys to move between answers.</p>
 
-  <h2 id="progress">5. Progress</h2>
+  <h2 id="progress">6. Progress</h2>
   <p>The Progress screen shows study time, answer results, learning levels and list progress. Listening in the PDF Reader contributes to total study time only; it does not change a record’s level, correct/wrong counts or practice results.</p>
 
-  <h2 id="transfer">6. Backup, restore and transfer</h2>
+  <h2 id="transfer">7. Backup, restore and transfer</h2>
   <ul>
     <li><strong>Backup / Restore:</strong> saves or restores the whole extension data set as a JSON backup. This includes lists, sublists, records, study data, analytics, compatible preferences and saved Game Practice positions.</li>
     <li><strong>Export / Import:</strong> use XLSX for spreadsheet-oriented transfers. Markit-generated XLSX files preserve Markit metadata.</li>
@@ -92,11 +107,11 @@
   </ul>
   <div class="notice">Back up before replacing, restoring or moving data to another Chrome profile or computer. A backup is the safest way to preserve all lists and progress together.</div>
 
-  <h2 id="privacy">7. Privacy and storage</h2>
+  <h2 id="privacy">8. Privacy and storage</h2>
   <p>Markit Highlighter stores its data in Chrome’s local extension storage. Your saved lists, records and study data remain in the local Chrome profile unless you export or back them up yourself.</p>
   <p>The extension needs page access to find and highlight saved text. Browser-internal pages, the Chrome Web Store and some protected pages do not permit extensions to inject page controls.</p>
 
-  <h2 id="help">8. Troubleshooting</h2>
+  <h2 id="help">9. Troubleshooting</h2>
   <h3>Highlights or controls do not appear</h3>
   <p>Refresh the page, confirm the relevant list is enabled, and check that the page is not a Chrome-internal or protected page. Use <strong>Apply to tab</strong> from the popup if needed.</p>
   <h3>A local PDF does not load</h3>
